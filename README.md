@@ -14,6 +14,6 @@ Este es mi repositorio que contiene toda mi informacion personal
 ###Clases Compartidas 
 <nav>
 <ul>
-	<a href="index.html" > Datos</a>
+	<a href="index.html" > Datos</a> <br>
 	<a href="intereses.html" > Intereses personales </a>
 
