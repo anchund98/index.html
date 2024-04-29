@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum</title>
+    <link rel="stylesheet" href="maquetacion.css">
+</head>
+<body>
+
+    <header>
+        <h1>Datos Personales</h1>
+    </header>
+
+    <div class="container">
+
+        <section class="img">
+            <img src="images/foto.jpeg" alt="">
+        </section>
+
+
+        <section class="info">
+            <h2>Jefferson Alex Anchundia Flores</h2>
+            <p>Estudiante de la Univerdad Tecnica de Manabi
+                Facultad Ciencias Informaticas 
+            </p>
+            <p>4to Nivel de la Carrera de Ingenieria de Software</p>
+            <p>Representante estudiantil FEUE-UTM</p>
+        </section>
+
+        <section class="dato">
+            <h2>Datos Personales </h2>
+            <p><b>Cedula</b> 305048442-1</p>
+            <p><b>Nacionalidad </b> Ecuatoriana </p>
+            <p><b>Direccion: </b>Calle Victor Veliz Macias, Cuidadela La 
+            Primavera, Montecristi, Manabi. Ecuador</p>
+            <p><b>Telefono: </b>+593984353661</p>
+            <p><b>Correo Personal: </b> jefferson09022@gmail.com</p>
+            <p><b>Correo Institucional: </b> janchundia4421@utm.edu.ec</p>
+        </section>
+
+        <section class="education">
+            <h2>Educación</h2>
+            <h3>Universidad Tecnica de Manabi </h3>
+            <p>Carrera: Ingenieria de Software</p>
+            <p>Actualmentente en curso </p>
+            <h3>Unidad Educativa Dr. Prisco Villasmil Fe y Alegria </h3>
+            <p>Ballicher tecnico en Informatica </p>
+            <p>Fecha de finalizacion: 30 de junio 2016</p>
+            
+        </section>
+
+        <section class="dato">
+            <h2>Competencias y Habilidades</h2> 
+            <p><ul>
+                <li>Manejo intermedio del paquete ofice</li>
+                <li>Experiencia en lenguajes de programacion</li>
+                <li>Trabajos bajo presion en equipos</li>
+            </ul></p>
+            <p><ul>
+                <li>Analisis de gestion en redes informaticos</li>
+                <li>Pensamiento logico en lenguajes de programacion</li>
+                <li>Solucion a los problemas de manera oportuna</li>
+            </ul><br> </p>
+            
+        </section>
+
+
+        <section class="education">
+            <h2>Experiencia Laboral</h2>
+            <h3>Nuevas Operaciones Nucopsa SA</h3>
+            <p>Cargo: Cajero</p>
+            <p>Fecha de inicio: 10 de enero 2018</p>
+            <p>Fecha de finalizacion: 16 de marzo 2023</p>
+            <p>Descripción: Atencion al cliente <br>
+
+            </p>
+
+        </section>
+
+        <section class="dato">
+            <h2>Idiomas </h2>
+            <h3>Ingles </h3>
+            <p>Nivel: Basico</p>
+            <h3>Italiano </h3>
+            <p>Nivel: Basico</p>
+            <h3>Latin </h3>
+            <p>Nivel: Basico</p>
+            </p> </p>
+            
+        </section>
+        <section class="education">
+            <h2>Intereses Personales </h2>
+            <p>Voluntario en la cruz roja Ecuador</p>
+            <p>Catequisita Catolico </p>
+            <p>Musico </p>
+            <p> <br>
+            <div class="butom">
+                <a href="intereses.html" class="btn-1"> Mas Intereses </a>
+            </div>
+
+            </p>
+
+        </section>
+
+        <footer>
+            <p>&copy; Jefferson Alex Anchundia Flores </p>
+        </footer>
+
+        <button onclick="topFunction()" id="scrollButton" title="Volver Arriba">Volver Arriba</button>
+
+        <script>
+            window.onscroll = function() {scrollFunction()};
+    
+            function scrollFunction() {
+                var scrollButton = document.getElementById("scrollButton");
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 0) {
+                    scrollButton.style.display = "block";
+                } else {
+                    scrollButton.style.display = "none";
+                }
+            }
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0; 
+            }
+        </script>
+
+
+    </div>
+
+</body>
+</html>

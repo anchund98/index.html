@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #000661;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+section {
+    margin: 20px 0;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #ffffff;
+    border: solid 1px #000000;
+    padding: 5px;
+    font-weight: bold;
+    background: #000661;
+    border-radius: 5px;
+
+}
+
+.info {
+    background-color: #fff;
+    padding: 29px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dato {
+    background-color: #fff;
+    padding: 17px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 20%;
+    width: 40%;
+    float: left;
+}
+
+.education {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 30%;
+    width: 50%;
+    float: right;
+}
+.habilidad {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 5%;
+    width: 5%;
+    float: left;
+}
+
+
+.img {
+    flex-basis: 40%;
+    float: left;
+}
+
+.img img {
+    width: 200px;
+    height: 210px;
+    border-radius: 50%;
+    border: 5px solid #000661;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 35px;
+    background: #000661;
+    color: #fff;
+    text-size-adjust: 15px ;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 1100px;
+    text-align: center;
+    padding: 10px;
+    background-color: #000661;
+    color: #fff;
+}
+
+#scrollButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#scrollButton:hover {
+    background-color: #0056b3;
+}
